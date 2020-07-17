@@ -8,9 +8,9 @@ function SacarResto()
 	var vDividendo;
 	var vDivisor;
 	var vResto;
-	vDividendo = document.getElementById("txtIdNumeroDividendo").value;
-	vDivisor = document.getElementById("txtIdNumeroDivisor").value;
+	vDividendo = parseFloat(document.getElementById("txtIdNumeroDividendo").value);
+	vDivisor = parseFloat(document.getElementById("txtIdNumeroDivisor").value);
 	
-	vResto = parseInt(vDividendo) % parseInt(vDivisor);
+	vResto = vDividendo % vDivisor;
 	alert("El resto es " + vResto);
 }

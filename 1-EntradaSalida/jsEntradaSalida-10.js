@@ -7,7 +7,7 @@ function mostrarAumento()
 {
 	var vImporte
 	var vAumento
-	vImporte = parseInt(document.getElementById("txtIdImporte").value) ;
+	vImporte = parseFloat(document.getElementById("txtIdImporte").value) ;
 	vAumento = vImporte - vImporte*0.25 ;
 	document.getElementById("txtIdResultado").value = vAumento;
 }

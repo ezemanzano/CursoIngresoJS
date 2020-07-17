@@ -7,7 +7,7 @@ function mostrarAumento()
 {
 	var vSueldo
 	var vAumento
-	vSueldo = parseInt(document.getElementById("txtIdSueldo").value) ;
+	vSueldo = parseFloat(document.getElementById("txtIdSueldo").value) ;
 	vAumento = vSueldo + vSueldo*0.10 ;
 	document.getElementById("txtIdResultado").value = vAumento;
 }
