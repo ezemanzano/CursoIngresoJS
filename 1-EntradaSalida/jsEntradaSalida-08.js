@@ -12,5 +12,5 @@ function SacarResto()
 	vDivisor = parseFloat(document.getElementById("txtIdNumeroDivisor").value);
 	
 	vResto = vDividendo % vDivisor;
-	alert("El resto es " + vResto);
+	alert("El resto es " + vResto.toFixed(2));
 }
