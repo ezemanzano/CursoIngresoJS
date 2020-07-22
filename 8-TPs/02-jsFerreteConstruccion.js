@@ -21,7 +21,7 @@ function Circulo ()
     let vRadio;
     let vCirculo;
     vRadio = parseFloat(document.getElementById("txtIdRadio").value);
-    vCirculo = (Math.pow((vRadio*Math.PI), 2 ))*3;
+    vCirculo = (vRadio*(Math.PI*2))*3;
     alert("El material total a comprar es: " +vCirculo.toFixed(4));
 }
 function Materiales () 
