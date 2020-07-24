@@ -1,15 +1,15 @@
 function mostrar()
 {
-	var vNota;
-	vNota = Math.floor(Math.random()*10);
+	let vNota;
+	vNota = Math.floor(Math.random()*10)+1;
 	if (vNota >= 9) {
-		alert("Excelente");
+		alert(vNota + " Excelente");
 	}
 	else if (vNota >= 4) {
-		alert("Aprobó");
+		alert(vNota + " Aprobó");
 	}
-	else if (vNota < 4){
-	alert("Vamos que la proxima se puede") ; 
+	else {
+	alert(vNota + " Vamos que la proxima se puede") ; 
+	}
+
 }
-alert(vNota);
-}//FIN DE LA FUNCIÓN
