@@ -1,50 +1,26 @@
-function mostrar()
-{
-	//var mesDelAño =txtIdMes.value;
-	switch (mesDelAño = txtIdMes.value) 
-	{
-		case 'Enero' :
-			alert("Falta para el invierno.");
-			break;
-		case 'Febrero':
-			alert("Falta para el invierno."); 
-			break;
-		case 'Marzo' :
-			alert("Falta para el invierno.");
-			break;
-		case 'Abril':
-			alert("Falta para el invierno."); 
-			break;
-	
-		case 'Mayo' :
-			alert("Falta para el invierno.");
-			break;
-		case 'Junio' :
-			alert("Falta para el invierno.");
-			break;
-			
-		case 'Julio' :
+function mostrar() {
+	let mesDelAño;
+	mesDelAño = document.getElementById("txtIdMes").value;
+	switch (mesDelAño) {
+
+
+		case 'Julio':
+		case 'Agosto':
 			alert("Abrigate que hace frio.");
 			break;
-		case 'Agosto' :
-				alert("Abrigate que hace frio.");
-				break;
-		case 'Septiembre' :
-			alert(" Falta para el invierno.");
+		case 'Septiembre':
+		case 'Octubre':
+		case 'Noviembre':
+		case 'Diciembre':
+			alert("Ya pasamos el frío");
 			break;
-		case 'Octubre' :
-				alert("Falta para el invierno.");
-				break;
-		case 'Noviembre' :
-					alert("Falta para el invierno.");
-					break;
-		case 'Diciembre' :
-						alert("Falta para el invierno.");
-						break;
+		default:
+			alert("Falta para el invierno.");
+			break;
 
 	}
 
-	
+
 
 
 
