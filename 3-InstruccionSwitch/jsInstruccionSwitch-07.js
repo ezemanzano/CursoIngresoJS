@@ -10,7 +10,7 @@ switch (vDestino)
 	case "Cataratas":
 		alert("Norte");
 		break;
-	case "Cordoba":
+	case "Ushuaia":
 		alert("Sur");
 		break;
 	case "Mar del plata":

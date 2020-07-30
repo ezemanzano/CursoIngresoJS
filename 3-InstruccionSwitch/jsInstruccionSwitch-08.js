@@ -5,16 +5,17 @@ function mostrar()
 switch (vDestino)
 {
 	case "Bariloche":
+	case "Ushuaia":
 		alert("FRIO");
 		break;
 	case "Cataratas":
-		alert("CALOR");
-		break;
-	case "Cordoba":
-		alert("FRIO");
-		break;
 	case "Mar del plata":
 		alert("CALOR");
-		break;			
+		break;
+	default :
+	alert ("Esta ciudad no está contemplada")
+	break;
+	
+	
 }
 }//FIN DE LA FUNCIÓN
